@@ -1,0 +1,48 @@
+"Variable","Definition"
+"Fund Performance variables",
+"Net Internal Rate of Return (IRR)","The net IRR, obtained from Preqin, uses the present sum of cash contribution, the present value of distributions and the current value of unrealised investments and applies a discount. The amount excludes any carry or performance fees earned by the GP."
+"Net Multiple","The net multiple, obtained from Preqin, represents the sum of total LP distributions and the unrealised value of the fund, divided by the total LP contributions (expressed as a multiple)."
+"Public Market Equivalent (PME)","PME are calculated as in Kaplan and Schoar (2005). PME is the discounted present value of fund distributions plus any remaining residual value by the present discounted value of capital calls. Discount rates are calculated based on the return of the S&P 500 or the MSCI ACWI."
+"Fund type variables",
+"Balanced","Dummy variable taking the value of '1' if Preqin reports the fund type as 'Balanced' and '0' otherwise"
+"Buyout","Dummy variable taking the value of '1' if Preqin reports the fund type as 'Buyout’ and '0' otherwise"
+"Co-investment","Dummy variable taking the value of '1' if Preqin reports the fund type as 'Co-investment' or 'Co-investment multi-manager' and '0' otherwise"
+"Distressed & Turnaround","Dummy variable taking the value of '1' if Preqin reports the fund type as 'Distressed debt', 'Special situations' or 'Turnaround' and '0' otherwise"
+"Expansion / Late Stage","Dummy variable taking the value of '1' if Preqin reports the fund type as 'Expansion/ Late Stage' and '0' otherwise"
+"Growth","Dummy variable taking the value of '1' if Preqin reports the fund type as 'Growth' and '0' otherwise"
+"Mezzanine","Dummy variable taking the value of '1' if Preqin reports the fund type as 'Mezzanine' and '0' otherwise"
+"Natural Resources","Dummy variable taking the value of '1' if Preqin reports the fund type as 'Natural Resources' and '0' otherwise"
+"Real Estate","Dummy variable taking the value of '1' if Preqin reports the fund type as 'Real Estate' or 'Infrastructure' and '0' otherwise"
+"Secondaries","Dummy variable taking the value of '1' if Preqin reports the fund type as 'Secondaries' or 'Direct secondaries' and '0' otherwise"
+"Venture","Dummy variable taking the value of '1' if Preqin reports the fund type as 'Venture (General)', 'Venture Debt', 'Early stage', 'Early Stage Start-up' or 'Early Stage: Seed' and '0' otherwise"
+"Fund vintage variables",
+"Vintage year","The first year of investment/drawdown from the investor. A fund's vintage year is captured through a dummy variable taking the value of '1' in the fund's vintage year, as reported by Preqin, and '0' for all other years. Sample period: 1990–2013."
+"Vintage brackets",
+"1990–2002","Dummy variable taking the value of '1' if the fund's vintage year, as reported by Preqin, is between 1990 and 2002, and '0' otherwise"
+"1990–2008","Dummy variable taking the value of '1' if the fund's vintage year, as reported by Preqin, is between 1990 and 2008, and '0' otherwise"
+"2003–2008","Dummy variable taking the value of '1' if the fund's vintage year, as reported by Preqin, is between 2003 and 2008, and '0' otherwise"
+"2007–2009","Dummy variable taking the value of '1' if the fund's vintage year, as reported by Preqin, is between 2007 and 2009, and '0' otherwise"
+"Region focus variables",
+"Africa","Dummy variable taking the value of '1' if the fund's region focus, as reported by Preqin, is 'Africa', and '0' otherwise"
+"Americas","Dummy variable taking the value of '1' if the fund's region focus, as reported by Preqin, is 'Americas', and '0' otherwise"
+"Asia","Dummy variable taking the value of '1' if the fund's region focus, as reported by Preqin, is 'Asia', and '0' otherwise"
+"Australasia","Dummy variable taking the value of '1' if the fund's region focus, as reported by Preqin, is 'Australasia', and '0' otherwise"
+"Diversified multi-region","Dummy variable taking the value of '1' if the fund's region focus, as reported by Preqin, is 'Diversified multi-region', and '0' otherwise"
+"Europe","Dummy variable taking the value of '1' if the fund's region focus, as reported by Preqin, is 'Europe', and '0' otherwise"
+"Middle East & Israel","Dummy variable taking the value of '1' if the fund's region focus, as reported by Preqin, is 'Middle East & Israel', and '0' otherwise"
+"U.S.","Dummy variable taking the value of '1' if the fund's region focus, as reported by Preqin, is 'U.S.', and '0' otherwise"
+"Size Variables",
+"Fund Size","Fund Value expressed in 2013 U.S. dollars (millions)"
+"ln (Fund Size)","The natural logarithm of the fund's value (size), expressed in 2013 U.S. dollars"
+"Size Brackets",
+"<$100mn","Dummy variable taking the value of '1' if the fund's value (size), expressed in 2013 U.S. dollars, is less than $100mn, and '0' otherwise"
+"$100mn_$250mn","Dummy variable taking the value of '1' if the fund's value (size), expressed in 2013 U.S. dollars, is between $100mn and $250mn, and '0' otherwise"
+"$250mn_$500mn","Dummy variable taking the value of '1' if the fund's value (size), expressed in 2013 U.S. dollars, is between $250mn and $500mn, and '0' otherwise"
+"$500mn_$1bn","Dummy variable taking the value of '1' if the fund's value (size), expressed in 2013 U.S. dollars, is between $500mn and $1bn, and '0' otherwise"
+"$1bn_$3bn","Dummy variable taking the value of '1' if the fund's value (size), expressed in 2013 U.S. dollars, is between $1bn and $3bn, and '0' otherwise"
+">$3bn","Dummy variable taking the value of '1' if the fund's value (size), expressed in 2013 U.S. dollars, is more than $3bn, and '0' otherwise"
+"Fund sequence variable",
+"Fund sequence","The number within a sequence of funds that a fund occupies within a private equity house. The first fund raised by a private equity house takes the value of '1', while follow-on funds take the value of how many funds were previously raised by the respective private equity house, including the current fund."
+"Risk variables per fund type",
+"Standard deviation of fund IRRs","Standard deviation of funds' net IRRs calculated separately for all funds classified under a certain 'fund type'"
+"Standard deviation of fund multiples","Standard deviation of funds' net multiples calculated separately for all funds classified under a certain 'fund type'"
